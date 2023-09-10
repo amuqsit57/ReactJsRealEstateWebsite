@@ -1,0 +1,189 @@
+.middle{
+
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(9, 20, 17);
+    justify-content:space-evenly;
+}
+
+.right_middle{
+    width: 40%;
+    height: 35rem;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.left_middle{
+    width: 35%;
+    height: 40rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+
+
+/* left middle portion */
+
+.p1{
+    color: white;
+    font-size: 3.5em;
+    font-weight: bolder;
+
+}
+
+
+.p2{
+    color: gray;
+    font-size: 0.9em;
+
+}
+
+
+.search{
+
+    background-color: white;
+    border-radius: 5px;
+    width: 400px;
+    display: flex;
+    margin-right: 20px;
+    justify-content: space-between;
+}
+
+.search_box{
+    padding-right: 200px;
+}
+
+.search .img{
+    width: 20px;
+    margin: 5px;
+    background-image: url("C:\Users\abdul\OneDrive\Desktop\real_estate_react proj\real_estate_app\public\loc.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: none;
+
+}
+
+.search button{
+    margin: 5px;
+}
+
+
+
+.middle_img{
+
+    
+    width: 65%;
+    height: 30rem;
+    background-color: black;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border: 6px solid gray;
+
+    background-image:url("C:\Users\abdul\OneDrive\Desktop\real_estate_react proj\real_estate_app\public\build.jpg") ;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.cont{
+
+
+    display: flex;
+    align-items: center;
+
+}
+
+
+.cont .box1,.box2,.box3{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin-right: 10%;
+}
+
+.icon{
+    width: 10px;
+    height: 10px;
+
+    background-image: url("C:\Users\abdul\OneDrive\Desktop\real_estate_react proj\real_estate_app\public\plus.png");
+    background-repeat: no-repeat;
+    margin-right: 20px;
+    background-size: contain;
+
+}
+
+.num{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.org_circle{
+    position: absolute;
+    background-color: orange;
+
+    
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+    border-radius: 100%;
+    width: 60px;
+    height: 60px;
+    top: 160px;
+    left: 350px;
+}
+
+p{
+    z-index: 1;
+}
+h2{
+    color: white;
+    margin-right: 10px;
+}
+
+
+.effect{
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    filter: blur(80px);
+
+}
+
+
+
+@media (max-width: 1130px) {
+    .middle{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+  }

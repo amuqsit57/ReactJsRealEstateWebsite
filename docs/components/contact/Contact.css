@@ -1,0 +1,177 @@
+.contact{
+
+
+   
+
+        display: flex;
+        flex-direction: column;
+           justify-content:space-between;
+           align-items: center;
+    padding: 20px;
+        }
+
+
+
+.t1{
+    color: rgb(255, 121, 73);
+   
+    font-weight: bold;
+
+}
+
+.t2 {
+    color: rgb(84, 84, 255);
+ 
+    font-weight: bolder;
+    
+}
+
+
+.t3 {
+    color: gray;
+     
+}
+
+
+
+.r_midd{
+
+
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.left_middles{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.middle_imag{
+
+
+    width: 65%;
+    height: 30rem;
+    background-color: black;
+    border-top-left-radius: 50%;
+    
+    border-top-right-radius: 50%;
+ 
+    background-image:url("C:\Users\abdul\OneDrive\Desktop\real_estate_react proj\real_estate_app\public\build.jpg") ;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+
+.boxes{
+    background-color: white;
+   
+    display: flex;
+    justify-content: space-evenly;
+  
+    flex-direction: column;
+}
+
+
+.boxes div{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+
+
+
+
+
+
+
+
+
+ 
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    padding: 10px;
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    border: 2px solid rgb(230, 230, 230);
+    border-radius: 10px;
+ 
+   
+}
+
+.section1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+img{
+    width: 32px;
+    height: 33px;
+    border-radius: 10px;
+    background-color: rgb(247, 240, 240);
+    margin-left: 10px;
+    padding: 5px;
+}
+.texts{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+
+.section2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.box:hover{
+    transform: scale(1.05);
+    transition: 0.5s;
+   box-shadow: 0px 10px 10px 0px gray;
+
+}
+
+
+.btn{
+    width: 200px;
+    background-color: gray;
+    color: blue;
+    background-color: rgb(214, 214, 214);
+    font-weight: bold
+}
+
+
+
+.btn:hover{
+    transform: scale(0.9);
+    transition: 0.5s;
+    background-color: blue;
+    color: white;
+}
+
